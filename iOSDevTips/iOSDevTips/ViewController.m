@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PPPermanentThreadVC.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    PPPermanentThreadVC *vc = [PPPermanentThreadVC new];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+    
 }
 
 

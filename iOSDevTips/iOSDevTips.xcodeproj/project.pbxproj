@@ -16,6 +16,7 @@
 		603D34A9244C77D800E868E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D34A8244C77D800E868E3 /* main.m */; };
 		603D34B3244C77D800E868E3 /* iOSDevTipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D34B2244C77D800E868E3 /* iOSDevTipsTests.m */; };
 		603D34BE244C77D800E868E3 /* iOSDevTipsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D34BD244C77D800E868E3 /* iOSDevTipsUITests.m */; };
+		603D34D4244D8D0D00E868E3 /* PPPermanentThreadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D34D3244D8D0D00E868E3 /* PPPermanentThreadVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		603D34B9244C77D800E868E3 /* iOSDevTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSDevTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603D34BD244C77D800E868E3 /* iOSDevTipsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSDevTipsUITests.m; sourceTree = "<group>"; };
 		603D34BF244C77D800E868E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603D34D2244D8D0C00E868E3 /* PPPermanentThreadVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPPermanentThreadVC.h; sourceTree = "<group>"; };
+		603D34D3244D8D0D00E868E3 /* PPPermanentThreadVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPPermanentThreadVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 				603D349A244C77D300E868E3 /* SceneDelegate.m */,
 				603D349C244C77D300E868E3 /* ViewController.h */,
 				603D349D244C77D300E868E3 /* ViewController.m */,
+				603D34CB244C78AA00E868E3 /* Runloop */,
 				603D349F244C77D300E868E3 /* Main.storyboard */,
 				603D34A2244C77D800E868E3 /* Assets.xcassets */,
 				603D34A4244C77D800E868E3 /* LaunchScreen.storyboard */,
@@ -135,6 +139,15 @@
 				603D34BF244C77D800E868E3 /* Info.plist */,
 			);
 			path = iOSDevTipsUITests;
+			sourceTree = "<group>";
+		};
+		603D34CB244C78AA00E868E3 /* Runloop */ = {
+			isa = PBXGroup;
+			children = (
+				603D34D2244D8D0C00E868E3 /* PPPermanentThreadVC.h */,
+				603D34D3244D8D0D00E868E3 /* PPPermanentThreadVC.m */,
+			);
+			path = Runloop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 				603D3498244C77D300E868E3 /* AppDelegate.m in Sources */,
 				603D34A9244C77D800E868E3 /* main.m in Sources */,
 				603D349B244C77D300E868E3 /* SceneDelegate.m in Sources */,
+				603D34D4244D8D0D00E868E3 /* PPPermanentThreadVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
